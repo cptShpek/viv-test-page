@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!--Vue CDN-->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+    <!-- стили swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <!-- мои стили  -->
+    <link rel='stylesheet' href='dist/style.css'>
+
+    
+
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__pentagon"></div>
+        <nav class="header__nav">
+            <a href="">Lorem</a>
+            <a href="">Ipsum</a>
+            <a href="">Simply</a>
+            <a href="">Dummy</a>
+        </nav>
+    </header>
+
+    <section class="lorem">
+        <div class="lorem_block lorem_block--top">
+            <h1>
+                Lorem<br>
+                Ipsum<br>
+                is simply
+            </h1>
+            <img class="lorem_block--top_img" src="./src/img/top-bg.png">
+        </div>
+        <div class="row lorem_bottom">
+            <div class="lorem_block lorem_block--left column">
+                <h2>
+                    Lorem Ipsum is simply dummy text for the printing
+                </h2>
+                <p>
+                    Lorem Ipsum has been the industry's standard dummy text
+                    fever since the 1500s, when an unknown printer took a galley
+                    Cf type and scrambled it to make a type specimen book
+                </p>
+                <button class="lorem_block--left_button">Lorem Ipsum</button>
+            </div>
+            <div class="lorem_block lorem_block--circles column">
+                <div class="lorem_block--circles_row row">
+                    <div class="grey-circle"></div>
+                    <p>It's a long established fact that a reader</p>
+                </div>
+                <div class="lorem_block--circles_row row">
+                    <div class="grey-circle"></div>
+                    <p>The point of using Lorem Ipsum is that</p>
+                </div>
+                <div class="lorem_block--circles_row row">
+                    <div class="grey-circle"></div>
+                    <p>Many desktop publishing packages</p>
+                </div>
+                <div class="lorem_block--circles_row row">
+                    <div class="grey-circle"></div>
+                    <p>There are many vartiations of passages</p>
+                </div>
+            </div>
+            <img src="./src/img/lorem-img.png" class="lorem_block lorem_block_image">
+        </div>       
+    </section>
+
+    <section class="middle">
+        <h2 class="middle-heading">Lorem</h2>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide column">
+                    <div class="row">
+                        <div class="grey-circle"></div>
+                        <h3>Lorem<br>Ipsum</h3>
+                    </div>
+                    <ul>
+                        <li><span>It is a long established fact that a reader will be distracted</span></li>
+                        <li><span>The readable content</span></li>
+                        <li><span>There are many variations of passages</span></li>
+                    </ul>
+                </div>
+                <div class="swiper-slide column">
+                    <div class="row">
+                        <div class="grey-circle"></div>
+                        <h3>Lorem<br>Ipsum</h3>
+                    </div>
+                    <ul>
+                        <li><span>It is a long established fact that a reader will be distracted</span></li>
+                        <li><span>The readable content</span></li>
+                        <li><span>There are many variations of passages</span></li>
+                    </ul>
+                </div>
+                <div class="swiper-slide column">
+                    <div class="row">
+                        <div class="grey-circle"></div>
+                        <h3>Lorem<br>Ipsum</h3>
+                    </div>
+                    <ul>
+                        <li><span>It is a long established fact that a reader will be distracted</span></li>
+                        <li><span>The readable content</span></li>
+                        <li><span>There are many variations of passages</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <div class="middle_list">
+            <h2>Lorem Ipsum is simply</h2>
+            <div class="middle_list-container row">
+                <div class="middle_list-container--part">
+                    <div class="element row">
+                        <span>01</span>
+                        <p>Contrary to popular belief, Lorem Ipsum</p>
+                    </div>
+                    <div class="element row">
+                        <span>03</span>
+                        <p>Random text it has roots in a piece of classical</p>
+                    </div>
+                    <div class="element row">
+                        <span>05</span>
+                        <p>Latin literature from 45 BC, making it over 2000 years old</p>
+                    </div>
+                </div>
+                <div class="middle_list-container--part">
+                    <div class="element row">
+                        <span>02</span>
+                        <p>It was popularised in the 1960s with the release</p>
+                    </div>
+                    <div class="element row">
+                        <span>04</span>
+                        <p>If you are going to use a passage of Lorem Ipsum </p>
+                    </div>
+                    <div class="element row">
+                        <span>06</span>
+                        <p>There are many variations of passages of Lorem Ipsum</p>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </section>
+    <section class="middle_bottom row">
+        <div class="middle_bottom-part">
+            <img src="./src/img/middle-img.png">
+        </div>
+        <div class="middle_bottom-part">
+            <h2>There are many variations of passages</h2>
+            <p>of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
+            <div class="middle_bottom-part-list row">
+                <ul>
+                    <li><span>Lorem Ipsum</span></li>
+                    <li><span>Lorem Ipsum</span></li>
+                    <li><span>Lorem Ipsum</span></li>
+                </ul>
+                <ul>
+                    <li><span>Lorem Ipsum</span></li>
+                    <li><span>Lorem Ipsum</span></li>
+                    <li><span>Lorem Ipsum</span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="animations">
+        <h2>Lorem Ipsum</h2>
+        <div class="animations_wrapper row" id="animations" on>
+            <div class="animations_block column">
+                <img src="./src/img/id-card.png">
+                <span class="animations_block circle"></span>
+                <span class="animations_block line"></span>
+                <span class="animations_block line line-bar"></span>
+                <p>Lorem Ipsum is simply dummy</p>
+            </div>
+            <div class="animations_block column">
+                <img src="./src/img/smartphone.png">
+                <span class="animations_block circle"></span>
+                <span class="animations_block line"></span>
+                <span class="animations_block line line-bar"></span>
+                <p>Lorem Ipsum is simply dummy</p>
+            </div>
+            <div class="animations_block column">
+                <img src="./src/img/laptop.png">
+                <span class="animations_block circle"></span>
+                <span class="animations_block line"></span>
+                <span class="animations_block line line-bar"></span>
+                <p>Lorem Ipsum is simply dummy</p>
+            </div>
+            <div class="animations_block column">
+                <img src="./src/img/chat.png">
+                <span class="animations_block circle"></span>
+                <span class="animations_block line"></span>
+                <span class="animations_block line line-bar"></span>
+                <p>Lorem Ipsum is simply dummy</p>
+            </div>
+            <div class="animations_block column">
+                <img src="./src/img/line-chart.png">
+                <span class="animations_block circle"></span>
+                <span class="animations_block line"></span>
+                <span class="animations_block line line-bar"></span>
+                <p>Lorem Ipsum is simply dummy</p>
+            </div>
+        </div>
+        <button class="animations_button">Lorem Ipsum</button>
+    </section>
+
+    <section class="vue" >
+        <div class="vue_blocks row" id="vue">
+            <block v-for="item in info" v-bind:props="item"/>
+        </div>
+        <div class="vue_bottom row">
+            <div class="vue_bottom-elem row">
+                <div class="grey-circle"></div>
+                <p>Lorem Ipsum is Simply</p>
+            </div>
+            <div class="vue_bottom-elem row">
+                <div class="grey-circle"></div>
+                <p>Lorem Ipsum is Simply</p>
+            </div>
+            <div class="vue_bottom-elem row">
+                <div class="grey-circle"></div>
+                <p>Lorem Ipsum is Simply</p>
+            </div> 
+        </div>
+    </section>
+
+    <section class="form column">
+        <h2>Lorem Ipsum <br> is simply dummy text</h2>
+        <div class="form_info row">
+            <div>
+                <form action="" id="form-reg">
+                    <h3>It is a long established fact that a reader</h3>
+                    <div>
+                        <input type="text" placeholder="Name *" id="name">
+                        <p class="error-text" id="name-error"><span>*</span> Lorem Ipsum is symply dummy</p>
+                    </div>
+                    <div class="row">
+                        <div>
+                            <input type="tel" placeholder="Phone *" id="phone">
+                            <p class="error-text" id="phone-error"><span>*</span> Lorem Ipsum is symply dummy</p>
+                        </div>
+                        <div>
+                            <input type="email" placeholder="E-mail *" id="email">
+                            <p class="error-text" id="email-error"><span>*</span> Lorem Ipsum is symply dummy</p>
+                        </div>
+                    </div>
+                    <div class="range-slider">
+    
+                    </div>
+                    <div class="submit row">
+                        <p>Lorem Ipsum is simply dummy text</p>
+                        <input type="submit" value="Lorem Ipsum" class="blue submit-button">
+                    </div>
+                </form>
+            </div>
+            <div class="form_info_text column">
+                <h3>It is a long established fact that a reader</h3>
+                <a href="">support@email.com</a>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer row">
+        <div class="column">
+            <div class="row footer_social">
+                <a href="https://facebook.com" target="_blank"><img src="./src/img/facebook.png"></a>
+                <a href="https://instagram.com" target="_blank"><img src="./src/img/instagram.png"></a>
+                <a href="https://youtube.com" target="_blank"><img src="./src/img/youtube.png"></a>
+                <a href="https://twitter.com" target="_blank"><img src="./src/img/twitter.png"></a>
+            </div>
+            <p>© 2020 Vis-A-Vis</p>
+        </div>
+        <div class="column">
+            <a href="">Lorem</a>
+            <a href="">Ipsum</a>
+            <a href="">Demmy</a>
+            <a href="">Text</a>
+        </div>
+        <div class="column">
+            <a href="">Lorem</a>
+            <a href="">Ipsum</a>
+            <a href="">Demmy</a>
+            <a href="">Text</a>
+        </div>
+        <div class="column">
+            <a href="">Lorem</a>
+            <a href="">Ipsum</a>
+            <a href="">Demmy</a>
+            <a href="">Text</a>
+        </div>
+    </footer>
+
+    <!-- мой js -->
+    <script src="dist/bundle.js"></script>
+</body>
+</html>
