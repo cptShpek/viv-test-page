@@ -1,0 +1,21 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 100px;
+  margin-top: 15px;
+
+  &__pentagon{
+      width: 60px;
+      height: 60px;
+      background: #0093E6;
+      clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  }
+
+  &__nav{
+      a {
+          text-decoration: none;
+          margin-left: 25px;
+      }
+  }
+}

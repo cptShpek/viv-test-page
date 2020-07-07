@@ -1,0 +1,21 @@
+.footer{
+  background: #333333;
+  color: white;
+  padding: 108px 202px;
+  margin-top: 150px;
+  justify-content: space-between;
+  
+  &_social{
+      width: 240px;
+  }
+  
+  div{
+      height: 204px;
+      justify-content: space-between;
+      a{
+          text-decoration: none;
+          color: white;
+          height: 24px;
+      }
+  }
+}
